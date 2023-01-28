@@ -15,6 +15,37 @@
 
 </head>
     <p class="page-header">3D Viewer</p>
+
+    <!-- NAV-BAR -->
+    <div>
+        <header style="overflow:hidden;">
+            <nav class="navbar navbar-expand-lg navbar-dark" id="nav_bar">
+                <div class="container-fluid">
+                    <div href="#" class="navbar-brand">
+                        <img src="nav-logo.png" width="100" alt="" class="d-inline-block align-middle">
+                        <a class="text font-weight-bold" id="items-2" href="#">eV LAB</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav navbar-float" id="nav-items-1">
+                            <li class="nav-item" id="nav-home"><a class="nav-link" href="index.html">HOME</a></li> 
+                            <li class="nav-item" id="nav-labs"><a class="nav-link" href="index.html">eV&nbsp;LABS</a></li>
+                            <li class="nav-item" id="nav-log"><a class="nav-link" id="cust_btn">LOG&nbsp;IN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        </div>
+    
+        <!-- SCROLLING INSTRUCTION -->
+            <div class="scrolling-instruction">
+                <div class="notice"><marquee behavior="scroll" direction="left">CLICK THE INSTRUMENTS BUTTON TO VIEW THE 3D MODELS , YOU CAN MOVING IT ALSO</marquee>
+                </div>
+            </div>    
+            
     <div class="container">
     <div class="flex-container">
 
@@ -35,6 +66,18 @@
         
         <p><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" data-src="https://jeetnk.github.io/stepdown-transformer/" onclick="loadFrame(this)">
         stepdown-transformer
+        </button></p>
+
+        <p><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" data-src="https://jeetnk.github.io/DC-Power-supply/" onclick="loadFrame(this)">
+        DC-Power-supply
+        </button></p>
+
+        <p><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" data-src="https://jeetnk.github.io/Breadboard/" onclick="loadFrame(this)">
+        Breadboard
+        </button></p>
+
+        <p><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" data-src="https://jeetnk.github.io/wire/" onclick="loadFrame(this)">
+        wire
         </button></p>
 </div>
 
