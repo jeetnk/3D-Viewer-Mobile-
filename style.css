@@ -22,6 +22,161 @@
     width: 0;
   }
 
+  .page-header{
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                     0 3px 0 #ccc, 0 4px 0 #ccc,
+                     0 5px 0 #ccc, 0 6px 0 #ccc,
+                     0 7px 0 #ccc, 0 8px 0 #ccc,
+                     0 9px 0 #ccc, 0 10px 0 #ccc,
+                     0 11px 0 #ccc, 0 12px 0 #ccc,
+                     0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+  /*-------------------- NAVBAR----------------------- */
+#items{
+    color: white;
+    text-decoration: none;
+    font-family: 'Zen Dots', cursive;
+    font-size: large;
+  }
+  #items-1{
+    font-size:larger;
+    color: yellow;
+    font-family: 'Zen Dots', cursive;
+    text-decoration: none;
+  }
+  #nav_bar{
+    background: black;
+    overflow: auto;
+    width: 100%;
+  }
+  #nav-items{
+    padding-left: 40vw;   
+    float:right;
+  }
+  .nav-link{
+    color:aliceblue !important;
+    font-family: 'Zen Dots', cursive;
+  }
+  #nav-home :hover,#nav-labs :hover,#nav-log :hover,#nav-sign :hover{
+    background:rgb(68, 61, 61);
+  }
+  #nav-home,#nav-labs,#nav-log,#nav-sign{
+    padding: 1vw;
+  }
+  #navbarSupportedContent{
+    color:white;
+  }
+  #items-1{
+    border-right: 0.066vw solid white;
+    padding:1vw;
+  }
+  #items{
+    margin-left: 1vw;
+  }
+  #nav-items-1{
+    padding-left: 52vw;   
+    float:right;
+  }
+  #items-2{
+    font-size:larger;
+    color: yellow;
+    font-family: 'Zen Dots', cursive;
+    text-decoration: none;
+  }
+  @media(max-width:1455px){
+    #nav-home,#nav-labs,#nav-log,#nav-sign{
+      padding:0.5vw;
+  }
+  }
+  @media(max-width:1363px){
+    #nav-items{  
+      padding-left:38vw; 
+    }
+    #nav-items-1{
+      padding-left: 55vw;
+    }
+  }
+  @media(max-width:1298px){
+    #nav-items{  
+      padding-left:35vw; 
+    }
+  }
+  @media(max-width:1231px){
+    #nav-items-1{
+      padding-left: 50vw;
+    }
+  }
+  @media(max-width:1228px){
+    #nav-items{  
+      padding-left:30vw; 
+    }
+  }
+  @media(max-width:1101px){
+    #nav-items-1{  
+      padding-left:45vw; 
+    }
+  }
+  @media(max-width:1137px){
+    #nav-items{  
+      padding-left:25vw; 
+    }
+  }
+  @media(max-width:1048px){
+    #nav-items{  
+      padding-left:20vw; 
+    }
+  }
+  @media(max-width:991.5px){
+    #nav-items{  
+        padding-left:5vw; 
+        float: left;
+    }
+    #nav-items-1{  
+      padding-left:5vw; 
+      float: left;
+  }
+  }
+  @media(max-width:426px){
+    #nav-items{  
+        padding-left: 5vw; 
+        float: left;
+    }
+    #items,#items-1{
+        font-size: large;
+    }
+  }
+  @media(max-width:402px){
+    #nav-items{  
+        padding-left: 5vw; 
+        float: left;
+        font-size:medium;
+    }
+    #items,#items-1{
+        font-size:medium;
+    }
+  }
+  @media(max-width:378px){
+    #nav-items{  
+        padding-left: 5vw; 
+        float: left;
+        font-size:small;
+    }
+    #items,#items-1{
+        font-size:small;
+    }
+  }
+  /* SCROLLING INSTRUCTION */
+  .scrolling-instruction{
+    color: black;
+    background:linear-gradient(to top,rgba(45, 45, 45, 0.425),white);
+    width: 100%;
+    padding: 1px;
+  }
+
 .instrument_button{
     margin-top: 100px;
     margin-left: 30px;
@@ -37,12 +192,6 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.page-header{
-    font-size: 80px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
 }
 
 .container{
